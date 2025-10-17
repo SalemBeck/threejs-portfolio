@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+
+
+.wave {
+    display: inline-block;
+    font-size: 2rem;
+    animation: wave 2s infinite;
+    transform-origin: 70% 70%; /* pivot point (bottom-right of the emoji) */
+  }
+  
+  @keyframes wave {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(14deg); }
+    20% { transform: rotate(-8deg); }
+    30% { transform: rotate(14deg); }
+    40% { transform: rotate(-4deg); }
+    50% { transform: rotate(10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+  }
+  .mywork { 
+    position: relative;
+    top : -100px;
+    display : flex ; 
+    justify-content: center;
+    border : 1px solid blue;
+    padding: 0;
+    margin : 0 ;
+    width: 100%;
+  }
+  .mywork h1 {
+    font-family: 'Brush Script MT', cursive;
+  }

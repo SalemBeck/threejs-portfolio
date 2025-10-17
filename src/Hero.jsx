@@ -72,7 +72,7 @@ function Hero() {
             zIndex: 10,
           }}
         >
-          hi I am Salem <span>Bakhouche</span> <h3 className="wave">👋</h3>
+          hi I am Salem <span></span> <h3 className="wave">👋</h3>
         </h1>
         <h2
           style={{

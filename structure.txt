@@ -1,0 +1,2 @@
+make the background the earth constantly moving 
+annimate the sections containers in front of the earth from left to right 
